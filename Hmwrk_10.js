@@ -199,7 +199,7 @@ class Student extends Person {
     return this._programList;
   }
   set programList(v) {
-    if (typeof v === "object" && v.length >= 3) {
+    if (typeof v === "object" && v.length >= 5) {
       this._programList = v;
     }
   }
